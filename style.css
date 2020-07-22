@@ -1,0 +1,247 @@
+*{
+	background-color: #2f4f4f;
+	margin: 0;
+	padding: 0;
+	font-family: all;
+	color:white;
+}
+
+div#nav div.nav_left img{
+	width: 60px;
+	height: 60px;
+	vertical-align: bottom;
+}
+
+div#nav div.nav_left h1{
+	font-family: logo;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: bottom;
+}
+
+div#nav div.nav_left{
+	float: left;
+}
+div#nav div.nav_right{
+	float: right;
+	margin-top: 20px;
+}
+
+div.nav_right a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 20px;
+	color: white;
+}
+
+a.active{
+	color: #fff !important;
+	background-color: #080808;
+	border-radius: 15px 0px 15px 0px;
+}
+
+.clear{
+	clear: both;
+}
+
+div#banner img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+div#banner i{
+	font-size: 130px;
+	color: #ddaa20;
+	position: absolute;
+	top:10%;
+	left: 10%;
+}
+
+div.quote{
+	font-family: unicode;
+	background-color: rgba(255,255,255,0.5);
+	font-size: 20px;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	padding: 30px;
+}
+
+div#a div.aa h1{
+	border-bottom: 1px solid black;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 25px;
+}
+
+/*div#pt p{
+	text-align: center;
+}*/
+
+
+div#t  img{
+	width: 60px;
+	height: 60px;
+}
+
+
+div#shop div.shop1 h1{
+	border-bottom: 1px solid black;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 25px;
+}
+
+div#shop div.shop1{
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+div#shop {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 50px 50px;
+	margin: 30px;
+
+}
+
+div#shop div.shop2{
+	grid-row-start:2;
+	grid-row-end:4;
+}
+div#shop div.shop3{
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+div#shop div.shop4{
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+div#shop div.shop2 img{
+	width: 350px;
+	height: 400px;
+	margin-left: 25px;
+}
+
+div#special{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 30px;
+
+}
+div#special div.special1{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+div#special div.special1 h1{
+	border-bottom: 1px solid black;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 25px;
+}
+div#special div.special2{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+div#special div.special2 p{
+	text-align: center;
+	padding: 25px;
+	margin: 25px;
+}
+div#special div.special3{
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+div#special div.special6{
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+div#special div.special3 img{
+	width: 400px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+div#special div.special4 img{
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+
+}
+div#special div.special5 img{
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+}
+div#special div.special6 img{
+	width: 300px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+
+div#menu{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+div#menu div.menu1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+div#menu div.menu1 h1{
+	border-bottom: 1px solid black;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 25px;
+}
+div#menu div.menu2{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+div#menu div.menu2 p{
+	text-align: center;
+	padding: 25px;
+	margin: 25px;
+}
+div#menu div.menu3 img{
+	width: 550px;
+	height: 380px;
+	display: block;
+	margin: auto;
+}
+div#menu div.menu4 h4{
+	padding: 25px;
+	text-align: justify;
+
+}
+div#menu div.menu4 li{
+	text-align: justify;
+	margin: auto;
+	padding: 15px;
+}
+div#footer{
+	background-color: #2f4f4f;
+	height: 50px;
+	margin-top: 50px;
+}
+div#footer div.left{
+	float: left;
+	color: white;
+	padding: 15px;
+	margin: auto;
+}
+div#footer div.right{
+	float: right;
+	color: white;
+	padding: 15px;
+	margin: auto;
+}
+
